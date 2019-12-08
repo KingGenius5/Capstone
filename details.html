@@ -1,130 +1,160 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Hello, world!</title>
-  </head>
+  <title>Blood Diamonds | Details</title>
+
+  <!-- Bootstrap Styling -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/style.css">
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+</head>
+
+<!-- Navbar -->
+
+<div class="container" style="padding-bottom: 50px">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="about.html">
+            </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="details.html">Details</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+<!-- Main Page -->
+
+<body>
+
+  <!-- Info Banner -->
 
   <div class="container" style="padding-bottom: 50px">
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="about.html">
-              </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="details.html">Details</a>
-          </li>
-        </ul>
+    <div class="card text-center" style="color: rgb(238, 244, 248)">
+      <div class="card-header">
+        How Can You Help?
       </div>
-    </nav>
+      <div class="card-body">
+        <h5 class="card-title">Every little step counts but awareness is key. Here are some tips...</h5>
+        <p class="card-text">Reputation goes a long way in the jewelry business. If a particular chain has a history of absolutely avoiding blood diamonds, it figures they aren't likely to jeopardize that image anytime soon. Likewise, if a given store has been known to dabble
+          in blood diamonds, then you'll know to avoid it. Given the historical prevalence of conflict diamonds, the chances are good that most major retailers have sold them at some point in time.Just always make sure to do your research before shopping
+          somewhere because salespeople won’t always have all the necessary information. A 2004 Global Witness report found that employees in 26 out of 30 major U.S. retailers they visited did not know their company's policy regarding conflict diamond
+          screening and warranties. Twenty-five of the 30 retailers officially declined to comment on their policies.</p>
+        <p class="card-text">You should be able to find out if a particular stone is certified by the Kimberley Process. If it isn't, and also lacks other supporting documentation that might put your mind at rest, it's probably best to pursue other options. Keep in mind that
+          Gemological Institute of America ratings speak only to the quality of a diamond, not if it is conflict-free.</p>
+        <p class="card-text">Unless you’re dealing with a family heirloom, you'll want to be especially inquisitive about the background of any diamond that is at least a decade old. Blood diamond rates were much higher in previous year, which means an older diamond has a
+          probability of being tainted. While the proceeds from your purchase of such a diamond likely would not contribute to civil war, many people would want to avoid diamonds with a history tied to violence.</p>
+        <p class="card-text">You should be able to find out if a particular stone is certified by the Kimberley Process. If it isn't, and also lacks other supporting documentation that might put your mind at rest, it's probably best to pursue other options. Keep in mind that
+          Gemological Institute of America ratings speak only to the quality of a diamond, not if it is conflict-free.</p>
+        <a href="#" class="btn btn-primary">DONATE to a Charity Now!</a>
+      </div>
+      <div class="card-footer text-muted">
+        "It's in you to give."
+      </div>
+    </div>
   </div>
 
-  <body>
-    <div class="container" style="padding-bottom: 50px">
+  <!-- Submission Form -->
+  <div class="container" style="padding-bottom: 50px">
 
-      <div class="card text-center" style="color: rgb(238, 244, 248)">
-        <div class="card-header">
-          How Can You Help?
+    <form class="needs-validation" novalidate>
+      <div class="form-row">
+        <div class="col-md-4 mb-3">
+          <label for="validationTooltip01">First name</label>
+          <input type="text" class="form-control" id="validationTooltip01" placeholder="First name" value="Bruce" required>
+          <div class="valid-tooltip">
+            Looks good!
+          </div>
         </div>
-        <div class="card-body">
-          <h5 class="card-title">Every little step counts but awareness is key. Here are some tips...</h5>
-          <p class="card-text">Reputation goes a long way in the jewelry business. If a particular chain has a history of absolutely avoiding blood diamonds, it figures they aren't likely to jeopardize that image anytime soon. Likewise, if a given store has been known to dabble
-            in blood diamonds, then you'll know to avoid it. Given the historical prevalence of conflict diamonds, the chances are good that most major retailers have sold them at some point in time.Just always make sure to do your research before shopping
-            somewhere because salespeople won’t always have all the necessary information. A 2004 Global Witness report found that employees in 26 out of 30 major U.S. retailers they visited did not know their company's policy regarding conflict diamond
-            screening and warranties. Twenty-five of the 30 retailers officially declined to comment on their policies.</p>
-          <p class="card-text">You should be able to find out if a particular stone is certified by the Kimberley Process. If it isn't, and also lacks other supporting documentation that might put your mind at rest, it's probably best to pursue other options. Keep in mind that
-            Gemological Institute of America ratings speak only to the quality of a diamond, not if it is conflict-free.</p>
-          <p class="card-text">Unless you’re dealing with a family heirloom, you'll want to be especially inquisitive about the background of any diamond that is at least a decade old. Blood diamond rates were much higher in previous year, which means an older diamond has a
-            probability of being tainted. While the proceeds from your purchase of such a diamond likely would not contribute to civil war, many people would want to avoid diamonds with a history tied to violence.</p>
-          <p class="card-text">You should be able to find out if a particular stone is certified by the Kimberley Process. If it isn't, and also lacks other supporting documentation that might put your mind at rest, it's probably best to pursue other options. Keep in mind that
-            Gemological Institute of America ratings speak only to the quality of a diamond, not if it is conflict-free.</p>
-          <a href="#" class="btn btn-primary">DONATE to a Charity Now!</a>
+        <div class="col-md-4 mb-3">
+          <label for="validationTooltip02">Last name</label>
+          <input type="text" class="form-control" id="validationTooltip02" placeholder="Last name" value="Wayne" required>
+          <div class="valid-tooltip">
+            Looks good!
+          </div>
         </div>
-        <div class="card-footer text-muted">
-          "It's in you to give."
+        <div class="col-md-4 mb-3">
+          <label for="validationTooltipUsername">E-mail</label>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+            </div>
+            <input type="text" class="form-control" id="validationTooltipUsername" placeholder="123456@email.com" aria-describedby="validationTooltipUsernamePrepend" required>
+            <div class="invalid-tooltip">
+              Please choose a unique and valid e-mail.
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-
-    <!-- Submission Form -->
-    <div class="container" style="padding-bottom: 50px">
-
-      <form class="needs-validation" novalidate>
-        <div class="form-row">
-          <div class="col-md-4 mb-3">
-            <label for="validationTooltip01">First name</label>
-            <input type="text" class="form-control" id="validationTooltip01" placeholder="First name" value="Bruce" required>
-            <div class="valid-tooltip">
-              Looks good!
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <label for="validationTooltip02">Last name</label>
-            <input type="text" class="form-control" id="validationTooltip02" placeholder="Last name" value="Wayne" required>
-            <div class="valid-tooltip">
-              Looks good!
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <label for="validationTooltipUsername">E-mail</label>
-            <div class="input-group">
-              <div class="input-group-prepend">
-                <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
-              </div>
-              <input type="text" class="form-control" id="validationTooltipUsername" placeholder="123456@email.com" aria-describedby="validationTooltipUsernamePrepend" required>
-              <div class="invalid-tooltip">
-                Please choose a unique and valid e-mail.
-              </div>
-            </div>
+      <div class="form-row">
+        <div class="col-md-6 mb-3">
+          <label for="validationTooltip03">City</label>
+          <input type="text" class="form-control" id="validationTooltip03" placeholder="City" required>
+          <div class="invalid-tooltip">
+            Please provide a valid city.
           </div>
         </div>
-        <div class="form-row">
-          <div class="col-md-6 mb-3">
-            <label for="validationTooltip03">City</label>
-            <input type="text" class="form-control" id="validationTooltip03" placeholder="City" required>
-            <div class="invalid-tooltip">
-              Please provide a valid city.
-            </div>
-          </div>
-          <div class="col-md-3 mb-3">
-            <label for="validationTooltip04">State</label>
-            <input type="text" class="form-control" id="validationTooltip04" placeholder="State" required>
-            <div class="invalid-tooltip">
-              Please provide a valid state.
-            </div>
-          </div>
-          <div class="col-md-3 mb-3">
-            <label for="validationTooltip05">Zip</label>
-            <input type="text" class="form-control" id="validationTooltip05" placeholder="Zip" required>
-            <div class="invalid-tooltip">
-              Please provide a valid zip.
-            </div>
+        <div class="col-md-3 mb-3">
+          <label for="validationTooltip04">State</label>
+          <input type="text" class="form-control" id="validationTooltip04" placeholder="State" required>
+          <div class="invalid-tooltip">
+            Please provide a valid state.
           </div>
         </div>
-        <button class="btn btn-primary" type="submit">Sign up to stay informed!</button>
-      </form>
-    </div>
+        <div class="col-md-3 mb-3">
+          <label for="validationTooltip05">Zip</label>
+          <input type="text" class="form-control" id="validationTooltip05" placeholder="Zip" required>
+          <div class="invalid-tooltip">
+            Please provide a valid zip.
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-primary" type="submit">Sign up to stay informed!</button>
+    </form>
+  </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+</body>
+
+<!-- Footer -->
+<div class="footer">
+  <div class="row">
+    <p style="font-size:12px; margin: 20px 20px 0px 520px;
+      padding-bottom: 15px;">Terms</p>
+    <p id="footer-style" style="font-size:12px">Privacy</p>
+    <p id="footer-style" style="font-size:12px">© 2019 MTifak Inc.</p>
+    <p id="footer-style" style="font-size:12px">Blood Diamonds</p>
+    <i id="footer-style" class="fab fa-twitter" style="font-size:20px"></i>
+    <i id="footer-style" class="fab fa-facebook" style="font-size:20px"></i>
+    <i id="footer-style" class="fab fa-instagram" style="font-size:20px"></i>
+  </div>
+</div>
+
+<!-- Bootstrap Scripts -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+</script>
+
 </html>

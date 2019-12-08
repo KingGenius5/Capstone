@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(248, 244, 240);
+  color: #0a0908;
+  font-size: 16px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.navbar .navbar-collapse {
+  background-color: rgb(238, 244, 248);
+}
+
+.text-center {
+  background-image: linear-gradient(rgb(71, 71, 71), rgb(61, 61, 61)),
+    url("http://www.blooddiamondaction.org/wp-content/uploads/2018/01/blood-diamonds-help.jpg");
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-position: center 0px;
+}
+
+.nav-link {
+  text-align: center;
+}
+
+.btn-lg {
+  padding: 1rem 2rem;
+}
+
+@media (max-width: 400px) {
+  .btn.filter {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+  }
+}
+
+#footer-style {
+  margin: 20px 20px 0px 10px;
+  color: #0a0908;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(238, 244, 248);
+  color: white;
+  text-align: center;
+}
